@@ -6,7 +6,7 @@ import cryptoModule
 
 bufferSize = 64 * 1024
 
-swver = "1.0.0"
+swver = "1.0.1"
 
 parser = argparse.ArgumentParser("--help", "-h", description="명령어 목록을 출력합니다.")
 
