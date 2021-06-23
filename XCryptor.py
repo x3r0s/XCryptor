@@ -2,7 +2,7 @@ import os
 import sys
 import getpass
 import argparse
-import pyAesCrypt
+import cryptoModule
 
 bufferSize = 64 * 1024
 
@@ -51,7 +51,7 @@ def main():
         password = getpass.getpass()
 
         # 입력받은 암호키로 복호화 진행
-        pyAesCrypt.decryptFile(args.input, output, password, bufferSize)
+        cryptoModule.decryptFile(args.input, output, password, bufferSize)
         print(f"복호화 성공 => {os.path.basename(output)}")
         
         # 만약 remove 옵션이 활성화 상태라면, 대상 파일 삭제
@@ -73,7 +73,7 @@ def main():
         password = getpass.getpass()
 
         # 입력받은 암호키로 암호화 진행
-        pyAesCrypt.encryptFile(args.input, output, password, bufferSize)
+        cryptoModule.encryptFile(args.input, output, password, bufferSize)
         print(f"암호화 성공 => {os.path.basename(output)}")
 
         # 만약 remove 옵션이 활성화 상태라면, 대상 파일 삭제
