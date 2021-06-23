@@ -29,7 +29,7 @@ XCryptor.exe -i foo.txt
 복호화 실행 방법 (최소한의 옵션)
 
 ```bash
-./XCryptor -i foo.txt
+./XCryptor -i foo.txt.enc -d
 ```
 
 ## Version history
