@@ -1,9 +1,11 @@
 # XCryptor
 Simple is best, XCryptor는 일반인도 금방 사용가능한 파일 암/복호화 소프트웨어입니다.
 
- AES 암호화 알고리즘을 이용한 밀리터리 등급 암호화로, 안전하게 파일을 암호화할 수 있습니다.
+AES 암호화 알고리즘을 이용한 밀리터리 등급 암호화로, 안전하게 파일을 암호화할 수 있습니다.
 
-XCryptor는 Windows, macOS, Linux/UNIX 운영체제를 모두 지원합니다.
+모든 포맷(확장자)의 파일 암/복호화를 지원합니다. 
+
+Windows, macOS, Linux/UNIX 운영체제를 모두 지원합니다.
 
 
 
