@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/XerosLab/XCryptor/badge)](https://www.codefactor.io/repository/github/XerosLab/XCryptor)
 # XCryptor
 Simple is best, XCryptor는 일반인도 금방 사용가능한 파일 암/복호화 소프트웨어입니다.
 
