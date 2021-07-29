@@ -48,23 +48,14 @@ XCryptor.exe -i foo.txt
 ./XCryptor -i foo.txt.enc -d
 ```
 
-## Version history
+## Version history & Download
 
-#### 1.0.0
-
-- 초기 개발 단계 완성 이후 배포
-
-#### 1.0.1
-
-- Pyinstaller로 빌드시 pyAesCrypto 모듈이 정상적으로 로드되지 않는 문제 해결, pyAesCrypto모듈 핵심 코어 파일을 직접 Import하여 해결함
+[Release](https://github.com/XerosLab/XCryptor/releases)
 
 ## Todo
 
-- GUI 개발
-- 인증키파일을 이용한 파일 암/복호화
-- Windows, Mac, Linux 세 환경에서 모두 자동으로 환경변수 등록되서 별도의 설정 없이 쉘에서 명령어처럼 사용할 수 있는 기능 개발
-- -m 명령어 추가 : 평문 메세지를 바로 암호화하여 파일로 저장
+[Feature pool](https://github.com/XerosLab/XCryptor/projects/1)
 
 ## Known issues
 
-- None
+[Issues](https://github.com/XerosLab/XCryptor/issues)
