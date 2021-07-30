@@ -56,6 +56,6 @@ XCryptor.exe -i foo.txt
 
 [Feature pool](https://github.com/XerosLab/XCryptor/projects/1)
 
-## Known issues
+## issues
 
 [Issues](https://github.com/XerosLab/XCryptor/issues)
