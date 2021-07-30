@@ -12,11 +12,11 @@ Windows, macOS, Linux/UNIX 운영체제를 모두 지원합니다.
 
 <center>XCrypt를 이용한 파일 암호화</center>
 
-<img src="https://blog.kakaocdn.net/dn/bcJ77T/btq7Y4hc6i9/DbkVrBMNAKUlN5cDZ6kKv1/img.gif">
+<img src="https://xeroslab.github.io/assets/uploads/img-3.gif">
 
 <center>XCryptor를 이용한 파일 복호화</center>
 
-<img src="https://blog.kakaocdn.net/dn/bVPVwA/btq7U0AbvTR/hkwuOevXbSIAxAcj6YWA31/img.gif">
+<img src="https://xeroslab.github.io/assets/uploads/img-4.gif">
 
 ## Usage
 
