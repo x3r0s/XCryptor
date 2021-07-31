@@ -46,13 +46,19 @@ def main():
             print("\033[31m새로 생성될 파일과 같은 이름을 가진 파일이 이미 존재합니다.\033[0m")
             return
 
-        # 유저에게 암호 키를 입력받음
-        print("복호화 키를 입력해주세요")
-        password = getpass.getpass()
-
-        # 입력받은 암호키로 복호화 진행
-        cryptoModule.decryptFile(args.input, output, password, bufferSize)
-        print(f"복호화 성공 => {os.path.basename(output)}")
+        while True:
+            # 유저에게 암호 키를 입력받음
+            print("복호화 키를 입력해주세요")
+            password = getpass.getpass()
+            # 입력 받은 암호 키를 사용하여 복호화 진행
+            try:
+                cryptoModule.decryptFile(args.input, output, password, bufferSize)
+                print(f"복호화 성공 => {os.path.basename(output)}")
+                break
+            # 암호가 일치하지 않을 경우
+            except ValueError:
+                print("암호가 옳바르지 않습니다. 암호를 다시 입력해주세요")
+                continue
         
         # 만약 remove 옵션이 활성화 상태라면, 대상 파일 삭제
         if args.remove == True:
