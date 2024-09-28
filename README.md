@@ -29,25 +29,25 @@ Command Line ONLY
 ### Others
 
 ```bash
-XCryptor.py --remove, -r       Removes the original file after encryption/decryption is complete. (Optional)
-XCryptor.py --version, -v      Displays the program version information. (Standalone command)
-XCryptor.py --help, -h         Displays the usage information for the program. (Standalone command)
+--remove, -r       Removes the original file after encryption/decryption is complete. (Optional)
+--version, -v      Displays the program version information. (Standalone command)
+--help, -h         Displays the usage information for the program. (Standalone command)
 ```
 
-### Encryption Execution (Minimum Required Options)
+### Fast Encryption Execution (Minimum Required Options)
 To encrypt a file, use the following command with the minimum required options:
 
 ```bash
-python XCryptor.py --input <path/to/input_file> --encrypt
+XCryptor.py --input <path/to/input_file> --encrypt
 ```
 
-### Decryption Execution (Minimum Required Options)
+### Fast Decryption Execution (Minimum Required Options)
 To decrypt a file, use the following command with the minimum required options:
 
 ```bash
-python XCryptor.py --input <path/to/input_file> --decrypt
+XCryptor.py --input <path/to/input_file> --decrypt
 ```
 
-## Version history & Download
+## Version history and Release here
 
 [Release](https://github.com/XerosLab/XCryptor/releases)
