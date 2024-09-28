@@ -1,4 +1,3 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/XerosLab/XCryptor/badge)](https://www.codefactor.io/repository/github/XerosLab/XCryptor)
 # XCryptor
 
 You can securely encrypt files using military-grade encryption with the AES encryption algorithm.
