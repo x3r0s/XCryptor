@@ -51,11 +51,3 @@ XCryptor.exe -i foo.txt
 ## Version history & Download
 
 [Release](https://github.com/XerosLab/XCryptor/releases)
-
-## Todo
-
-[Feature pool](https://github.com/XerosLab/XCryptor/projects/1)
-
-## issues
-
-[Issues](https://github.com/XerosLab/XCryptor/issues)
