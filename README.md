@@ -10,14 +10,25 @@ Compatible with Windows, macOS, and Linux/UNIX operating systems.
 
 Command Line ONLY
 
-### Command line options for XCryptor.py
+### Set Target file path
 
 ```bash
-XCryptor.py --input, -i        Adds the path of the file to be encrypted/decrypted as an argument. (Required option)
-XCryptor.py --output, -o       Adds the path where the newly created encrypted/decrypted file will be saved. (Optional option)
-XCryptor.py --encrypt, -e      Encryption mode (Optional, default option)
-XCryptor.py --decrypt, -d      Decryption mode (Optional)
-                    If neither -e nor -d is specified, the -e option (encryption mode) is selected by default.
+--input, -i        Adds the path of the file to be encrypted/decrypted as an argument. (Required option)
+--output, -o       Adds the path where the newly created encrypted/decrypted file will be saved. (Optional option)
+```
+
+### Encrypt and Decrypt Options
+
+(If neither -e nor -d is specified, the -e option (encryption mode) is selected by default.)
+
+```bash
+--encrypt, -e      Encryption mode (Optional, default option)
+--decrypt, -d      Decryption mode (Optional)
+```
+
+### Others
+
+```bash
 XCryptor.py --remove, -r       Removes the original file after encryption/decryption is complete. (Optional)
 XCryptor.py --version, -v      Displays the program version information. (Standalone command)
 XCryptor.py --help, -h         Displays the usage information for the program. (Standalone command)
